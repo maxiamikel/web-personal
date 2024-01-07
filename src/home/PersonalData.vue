@@ -24,5 +24,10 @@
 </script>
 
 <style lang="scss" scoped>
+    @import "@/components/app.scss";
 
+    .personal-data{
+        border: solid 1px;
+        display: flex;
+    }
 </style>
