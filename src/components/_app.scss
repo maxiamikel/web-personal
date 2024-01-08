@@ -1,11 +1,24 @@
-$color1:#212121;
-$color2:#ff9f1a;
-$color3:#18dcff;
+$color1:#AED6F1;
+$color2:#454545;
+$color3:#CACFD2;
 $color4:#c56cf0;
-$color5:#3ae374;
+$color5:#F1F1F1;
+$color6:#ff9f1a;
+
 $color-white:#fff;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu+Condensed&display=swap');
 
 $ff-secondary: 'Roboto', sans-serif;
 $ff-primary: 'Ubuntu Condensed', sans-serif;
+
+
+:export{
+    colorone:$color1;
+    colortwo:$color2;
+    colorthree:$color3;
+    colorfour:$color4;
+    colorfive:$color5;
+    colorsex:$color6;
+    colorwhite:$color-white;
+}
