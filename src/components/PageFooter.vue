@@ -1,6 +1,7 @@
 <template>
     <div class="page-footer-main">
-        <h1>Footer</h1>
+        <p>Copy right 2023 &copy;. All rights reserve</p>
+        <p>Desenvolvido por Amikel Maxi</p>
     </div>
 </template>
 
@@ -16,6 +17,7 @@
     .page-footer-main{
         background: $color2;
         padding: 20px;
+        text-align: center;
     }
 
 </style>

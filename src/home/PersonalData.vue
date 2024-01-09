@@ -2,8 +2,8 @@
     <div class="personal-data">
         <div class="personal-data__left">
            <div class="personal-data__left__content">
-                <span class="personal-data__left__content__text">Hola</span>
-                <h4 class="personal-data__left__content__name">Mi nombre es Amikel Maxi</h4>
+                <span class="personal-data__left__content__text">Hello!</span>
+                <h4 class="personal-data__left__content__name">Destaque</h4>
                 <p class="personal-data__left__content__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet</p>
                 <v-button-main 
                     texto="Contactar" 
@@ -35,6 +35,7 @@
     .personal-data{
         border: none;
         display: flex;
+        margin: 2px 0px 2px 0px;
         &__left{
             background: $color1;
             width: 60%;
@@ -47,9 +48,10 @@
                 color: $color-white;
                 &__text{
                     color: $color-white;
-                    font-family: $ff-primary;
+                    font-family: $ff-secondary;
                     font-size: 16px;
                     margin-bottom: 10px;
+                    font-weight: bold;
                 }
                 &__name{
                     font-family: $ff-secondary;

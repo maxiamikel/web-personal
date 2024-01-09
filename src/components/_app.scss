@@ -9,9 +9,12 @@ $color-white:#fff;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu+Condensed&display=swap');
 
-$ff-secondary: 'Roboto', sans-serif;
-$ff-primary: 'Ubuntu Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Inter:wght@200&display=swap');
 
+$ff-primary: 'Inconsolata', monospace;
+$ff-secondary: 'Inter', sans-serif;
+$ff-roboto: 'Roboto', sans-serif;
+$ff-ubuntu: 'Ubuntu Condensed', sans-serif;
 
 :export{
     colorone:$color1;

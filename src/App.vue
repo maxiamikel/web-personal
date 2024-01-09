@@ -3,7 +3,6 @@
     <page-menu />
     <div class="main-app__content">
       <page-barnner />
-      <about-me />
       <my-skills />
     </div>
     <page-footer />
@@ -13,7 +12,6 @@
 <script>
 import PageMenu from '@/components/PageMenu.vue';
 import PageBarnner from '@/components/PageBarnner.vue';
-import AboutMe from '@/home/AboutMe.vue';
 import MySkills from '@/home/MySkills.vue';
 import PageFooter from './components/PageFooter.vue';
 export default {
@@ -21,7 +19,6 @@ export default {
   components: {
     PageMenu,
     PageBarnner,
-    AboutMe,
     MySkills,
     PageFooter
     
@@ -44,6 +41,7 @@ export default {
     border: none;
     width: 100%;
     padding: 0px;
+    background: transparent;
     &__content{
       border: none;
       width: 80%;
